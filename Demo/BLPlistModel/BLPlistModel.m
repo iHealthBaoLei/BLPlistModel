@@ -79,7 +79,7 @@
 #if TARGET_OS_IPHONE
         successFlag = [dic_m writeToFile:_plistPath atomically:YES];
 #elif TARGET_OS_MAC
-        NSData *data = [NSKeyedArchiver archivedDataWithRootObject:dictionary];
+        NSData *data = [NSKeyedArchiver archivedDataWithRootObject:dic_m];
         successFlag = [[NSFileManager defaultManager]createFileAtPath:_plistPath contents:data attributes:nil];
 #endif
         if (completion) {
