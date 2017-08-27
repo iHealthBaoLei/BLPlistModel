@@ -133,7 +133,7 @@
 				TargetAttributes = {
 					EC534B711F319DC200C97CCE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = BP243G3Q2K;
+						DevelopmentTeam = 8982T47U8J;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -301,10 +301,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BP243G3Q2K;
+				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihealth.layer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -313,10 +313,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BP243G3Q2K;
+				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihealth.layer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -340,6 +340,7 @@
 				EC534B8B1F319DC200C97CCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
