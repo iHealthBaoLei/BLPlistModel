@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BLPlistModel"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "Use BLPlistModel to save a subclass of BLPlistModel as plist file and use BLPlistModelManager to get objects from plist file."
 
   # This description is used to generate tags and improve search results.
