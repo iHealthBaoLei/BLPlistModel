@@ -16,6 +16,7 @@
 		EC534B921F319E4300C97CCE /* BLPlistModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC534B901F319E4300C97CCE /* BLPlistModelManager.m */; };
 		EC534B991F31A65100C97CCE /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC534B981F31A65100C97CCE /* MyTableViewController.m */; };
 		EC534BA11F31ABD700C97CCE /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = EC534BA01F31ABD700C97CCE /* Fruit.m */; };
+		EC53DC791F5FF05800861463 /* iHealthSDK_v2.1.1.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC53DC781F5FF05800861463 /* iHealthSDK_v2.1.1.1.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,96 @@
 		EC534B981F31A65100C97CCE /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		EC534B9F1F31ABD700C97CCE /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
 		EC534BA01F31ABD700C97CCE /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		EC53DC1F1F5FF05800861463 /* ABI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABI.h; sourceTree = "<group>"; };
+		EC53DC201F5FF05800861463 /* ABIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABIController.h; sourceTree = "<group>"; };
+		EC53DC211F5FF05800861463 /* ABPM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPM.h; sourceTree = "<group>"; };
+		EC53DC221F5FF05800861463 /* ABPMController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABPMController.h; sourceTree = "<group>"; };
+		EC53DC231F5FF05800861463 /* AM3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3.h; sourceTree = "<group>"; };
+		EC53DC241F5FF05800861463 /* AM3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3Controller.h; sourceTree = "<group>"; };
+		EC53DC251F5FF05800861463 /* AM3S_V2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3S_V2.h; sourceTree = "<group>"; };
+		EC53DC261F5FF05800861463 /* AM3SController_V2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM3SController_V2.h; sourceTree = "<group>"; };
+		EC53DC271F5FF05800861463 /* AM4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM4.h; sourceTree = "<group>"; };
+		EC53DC281F5FF05800861463 /* AM4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AM4Controller.h; sourceTree = "<group>"; };
+		EC53DC291F5FF05800861463 /* AMHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMHeader.h; sourceTree = "<group>"; };
+		EC53DC2A1F5FF05800861463 /* AMMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMMacroFile.h; sourceTree = "<group>"; };
+		EC53DC2B1F5FF05800861463 /* BG1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1.h; sourceTree = "<group>"; };
+		EC53DC2C1F5FF05800861463 /* BG1Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1Controller.h; sourceTree = "<group>"; };
+		EC53DC2D1F5FF05800861463 /* BG1MacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG1MacroFile.h; sourceTree = "<group>"; };
+		EC53DC2E1F5FF05800861463 /* BG3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG3.h; sourceTree = "<group>"; };
+		EC53DC2F1F5FF05800861463 /* BG3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG3Controller.h; sourceTree = "<group>"; };
+		EC53DC301F5FF05800861463 /* BG5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5.h; sourceTree = "<group>"; };
+		EC53DC311F5FF05800861463 /* BG5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5Controller.h; sourceTree = "<group>"; };
+		EC53DC321F5FF05800861463 /* BG5S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5S.h; sourceTree = "<group>"; };
+		EC53DC331F5FF05800861463 /* BG5SController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BG5SController.h; sourceTree = "<group>"; };
+		EC53DC341F5FF05800861463 /* BGController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGController.h; sourceTree = "<group>"; };
+		EC53DC351F5FF05800861463 /* BGDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGDevice.h; sourceTree = "<group>"; };
+		EC53DC361F5FF05800861463 /* BGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGHeader.h; sourceTree = "<group>"; };
+		EC53DC371F5FF05800861463 /* BGMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMacroFile.h; sourceTree = "<group>"; };
+		EC53DC381F5FF05800861463 /* BP3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3.h; sourceTree = "<group>"; };
+		EC53DC391F5FF05800861463 /* BP3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3Controller.h; sourceTree = "<group>"; };
+		EC53DC3A1F5FF05800861463 /* BP3L.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3L.h; sourceTree = "<group>"; };
+		EC53DC3B1F5FF05800861463 /* BP3LController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP3LController.h; sourceTree = "<group>"; };
+		EC53DC3C1F5FF05800861463 /* BP5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5.h; sourceTree = "<group>"; };
+		EC53DC3D1F5FF05800861463 /* BP5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5Controller.h; sourceTree = "<group>"; };
+		EC53DC3E1F5FF05800861463 /* BP5S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5S.h; sourceTree = "<group>"; };
+		EC53DC3F1F5FF05800861463 /* BP5SController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5SController.h; sourceTree = "<group>"; };
+		EC53DC401F5FF05800861463 /* BP5SRW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5SRW.h; sourceTree = "<group>"; };
+		EC53DC411F5FF05800861463 /* BP5SRWController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP5SRWController.h; sourceTree = "<group>"; };
+		EC53DC421F5FF05800861463 /* BP7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7.h; sourceTree = "<group>"; };
+		EC53DC431F5FF05800861463 /* BP7Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7Controller.h; sourceTree = "<group>"; };
+		EC53DC441F5FF05800861463 /* BP7S.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7S.h; sourceTree = "<group>"; };
+		EC53DC451F5FF05800861463 /* BP7SController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BP7SController.h; sourceTree = "<group>"; };
+		EC53DC461F5FF05800861463 /* BPAV10Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAV10Device.h; sourceTree = "<group>"; };
+		EC53DC471F5FF05800861463 /* BPContinua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPContinua.h; sourceTree = "<group>"; };
+		EC53DC481F5FF05800861463 /* BPContinuaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPContinuaController.h; sourceTree = "<group>"; };
+		EC53DC491F5FF05800861463 /* BPController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPController.h; sourceTree = "<group>"; };
+		EC53DC4A1F5FF05800861463 /* BPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDevice.h; sourceTree = "<group>"; };
+		EC53DC4B1F5FF05800861463 /* BPHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPHeader.h; sourceTree = "<group>"; };
+		EC53DC4C1F5FF05800861463 /* BPM1AE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPM1AE.h; sourceTree = "<group>"; };
+		EC53DC4D1F5FF05800861463 /* BPMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPMacroFile.h; sourceTree = "<group>"; };
+		EC53DC4E1F5FF05800861463 /* BPV24Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPV24Device.h; sourceTree = "<group>"; };
+		EC53DC4F1F5FF05800861463 /* ConnectDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectDeviceController.h; sourceTree = "<group>"; };
+		EC53DC501F5FF05800861463 /* DFUController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUController.h; sourceTree = "<group>"; };
+		EC53DC511F5FF05800861463 /* DFUDeviceFirmwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUDeviceFirmwareInfo.h; sourceTree = "<group>"; };
+		EC53DC521F5FF05800861463 /* DFUHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUHeader.h; sourceTree = "<group>"; };
+		EC53DC531F5FF05800861463 /* DFUMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUMacro.h; sourceTree = "<group>"; };
+		EC53DC541F5FF05800861463 /* DFUServerFirmwareInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFUServerFirmwareInfo.h; sourceTree = "<group>"; };
+		EC53DC551F5FF05800861463 /* ECG3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECG3.h; sourceTree = "<group>"; };
+		EC53DC561F5FF05800861463 /* ECG3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECG3Controller.h; sourceTree = "<group>"; };
+		EC53DC571F5FF05800861463 /* ECG3USB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECG3USB.h; sourceTree = "<group>"; };
+		EC53DC581F5FF05800861463 /* ECG3USBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECG3USBController.h; sourceTree = "<group>"; };
+		EC53DC591F5FF05800861463 /* ECGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGHeader.h; sourceTree = "<group>"; };
+		EC53DC5A1F5FF05800861463 /* ECGMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECGMacroFile.h; sourceTree = "<group>"; };
+		EC53DC5B1F5FF05800861463 /* HealthHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthHeader.h; sourceTree = "<group>"; };
+		EC53DC5C1F5FF05800861463 /* HealthUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthUser.h; sourceTree = "<group>"; };
+		EC53DC5D1F5FF05800861463 /* HS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS2.h; sourceTree = "<group>"; };
+		EC53DC5E1F5FF05800861463 /* HS2Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS2Controller.h; sourceTree = "<group>"; };
+		EC53DC5F1F5FF05800861463 /* HS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS3.h; sourceTree = "<group>"; };
+		EC53DC601F5FF05800861463 /* HS3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS3Controller.h; sourceTree = "<group>"; };
+		EC53DC611F5FF05800861463 /* HS4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS4.h; sourceTree = "<group>"; };
+		EC53DC621F5FF05800861463 /* HS4Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS4Controller.h; sourceTree = "<group>"; };
+		EC53DC631F5FF05800861463 /* HS5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS5.h; sourceTree = "<group>"; };
+		EC53DC641F5FF05800861463 /* HS5Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HS5Controller.h; sourceTree = "<group>"; };
+		EC53DC651F5FF05800861463 /* HSHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSHeader.h; sourceTree = "<group>"; };
+		EC53DC661F5FF05800861463 /* HSMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSMacroFile.h; sourceTree = "<group>"; };
+		EC53DC671F5FF05800861463 /* iHealthHS6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHealthHS6.h; sourceTree = "<group>"; };
+		EC53DC681F5FF05800861463 /* IHSDKCloudUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHSDKCloudUser.h; sourceTree = "<group>"; };
+		EC53DC691F5FF05800861463 /* KN550BT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KN550BT.h; sourceTree = "<group>"; };
+		EC53DC6A1F5FF05800861463 /* KN550BTController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KN550BTController.h; sourceTree = "<group>"; };
+		EC53DC6B1F5FF05800861463 /* ManageDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageDeviceController.h; sourceTree = "<group>"; };
+		EC53DC6C1F5FF05800861463 /* PO3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PO3.h; sourceTree = "<group>"; };
+		EC53DC6D1F5FF05800861463 /* PO3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PO3Controller.h; sourceTree = "<group>"; };
+		EC53DC6E1F5FF05800861463 /* POHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POHeader.h; sourceTree = "<group>"; };
+		EC53DC6F1F5FF05800861463 /* POMacroFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POMacroFile.h; sourceTree = "<group>"; };
+		EC53DC701F5FF05800861463 /* ScanDeviceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanDeviceController.h; sourceTree = "<group>"; };
+		EC53DC711F5FF05800861463 /* SDKUpdateDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKUpdateDevice.h; sourceTree = "<group>"; };
+		EC53DC721F5FF05800861463 /* THV3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THV3.h; sourceTree = "<group>"; };
+		EC53DC731F5FF05800861463 /* THV3Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THV3Controller.h; sourceTree = "<group>"; };
+		EC53DC741F5FF05800861463 /* THV3Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THV3Macro.h; sourceTree = "<group>"; };
+		EC53DC751F5FF05800861463 /* TS28B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TS28B.h; sourceTree = "<group>"; };
+		EC53DC761F5FF05800861463 /* TS28BController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TS28BController.h; sourceTree = "<group>"; };
+		EC53DC771F5FF05800861463 /* TS28BHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TS28BHeader.h; sourceTree = "<group>"; };
+		EC53DC781F5FF05800861463 /* iHealthSDK_v2.1.1.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = iHealthSDK_v2.1.1.1.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC53DC791F5FF05800861463 /* iHealthSDK_v2.1.1.1.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,8 +190,106 @@
 				EC534B8E1F319E4300C97CCE /* BLPlistModel.m */,
 				EC534B8F1F319E4300C97CCE /* BLPlistModelManager.h */,
 				EC534B901F319E4300C97CCE /* BLPlistModelManager.m */,
+				EC53DC1E1F5FF05800861463 /* Headers */,
+				EC53DC781F5FF05800861463 /* iHealthSDK_v2.1.1.1.a */,
 			);
 			path = BLPlistModel;
+			sourceTree = "<group>";
+		};
+		EC53DC1E1F5FF05800861463 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EC53DC1F1F5FF05800861463 /* ABI.h */,
+				EC53DC201F5FF05800861463 /* ABIController.h */,
+				EC53DC211F5FF05800861463 /* ABPM.h */,
+				EC53DC221F5FF05800861463 /* ABPMController.h */,
+				EC53DC231F5FF05800861463 /* AM3.h */,
+				EC53DC241F5FF05800861463 /* AM3Controller.h */,
+				EC53DC251F5FF05800861463 /* AM3S_V2.h */,
+				EC53DC261F5FF05800861463 /* AM3SController_V2.h */,
+				EC53DC271F5FF05800861463 /* AM4.h */,
+				EC53DC281F5FF05800861463 /* AM4Controller.h */,
+				EC53DC291F5FF05800861463 /* AMHeader.h */,
+				EC53DC2A1F5FF05800861463 /* AMMacroFile.h */,
+				EC53DC2B1F5FF05800861463 /* BG1.h */,
+				EC53DC2C1F5FF05800861463 /* BG1Controller.h */,
+				EC53DC2D1F5FF05800861463 /* BG1MacroFile.h */,
+				EC53DC2E1F5FF05800861463 /* BG3.h */,
+				EC53DC2F1F5FF05800861463 /* BG3Controller.h */,
+				EC53DC301F5FF05800861463 /* BG5.h */,
+				EC53DC311F5FF05800861463 /* BG5Controller.h */,
+				EC53DC321F5FF05800861463 /* BG5S.h */,
+				EC53DC331F5FF05800861463 /* BG5SController.h */,
+				EC53DC341F5FF05800861463 /* BGController.h */,
+				EC53DC351F5FF05800861463 /* BGDevice.h */,
+				EC53DC361F5FF05800861463 /* BGHeader.h */,
+				EC53DC371F5FF05800861463 /* BGMacroFile.h */,
+				EC53DC381F5FF05800861463 /* BP3.h */,
+				EC53DC391F5FF05800861463 /* BP3Controller.h */,
+				EC53DC3A1F5FF05800861463 /* BP3L.h */,
+				EC53DC3B1F5FF05800861463 /* BP3LController.h */,
+				EC53DC3C1F5FF05800861463 /* BP5.h */,
+				EC53DC3D1F5FF05800861463 /* BP5Controller.h */,
+				EC53DC3E1F5FF05800861463 /* BP5S.h */,
+				EC53DC3F1F5FF05800861463 /* BP5SController.h */,
+				EC53DC401F5FF05800861463 /* BP5SRW.h */,
+				EC53DC411F5FF05800861463 /* BP5SRWController.h */,
+				EC53DC421F5FF05800861463 /* BP7.h */,
+				EC53DC431F5FF05800861463 /* BP7Controller.h */,
+				EC53DC441F5FF05800861463 /* BP7S.h */,
+				EC53DC451F5FF05800861463 /* BP7SController.h */,
+				EC53DC461F5FF05800861463 /* BPAV10Device.h */,
+				EC53DC471F5FF05800861463 /* BPContinua.h */,
+				EC53DC481F5FF05800861463 /* BPContinuaController.h */,
+				EC53DC491F5FF05800861463 /* BPController.h */,
+				EC53DC4A1F5FF05800861463 /* BPDevice.h */,
+				EC53DC4B1F5FF05800861463 /* BPHeader.h */,
+				EC53DC4C1F5FF05800861463 /* BPM1AE.h */,
+				EC53DC4D1F5FF05800861463 /* BPMacroFile.h */,
+				EC53DC4E1F5FF05800861463 /* BPV24Device.h */,
+				EC53DC4F1F5FF05800861463 /* ConnectDeviceController.h */,
+				EC53DC501F5FF05800861463 /* DFUController.h */,
+				EC53DC511F5FF05800861463 /* DFUDeviceFirmwareInfo.h */,
+				EC53DC521F5FF05800861463 /* DFUHeader.h */,
+				EC53DC531F5FF05800861463 /* DFUMacro.h */,
+				EC53DC541F5FF05800861463 /* DFUServerFirmwareInfo.h */,
+				EC53DC551F5FF05800861463 /* ECG3.h */,
+				EC53DC561F5FF05800861463 /* ECG3Controller.h */,
+				EC53DC571F5FF05800861463 /* ECG3USB.h */,
+				EC53DC581F5FF05800861463 /* ECG3USBController.h */,
+				EC53DC591F5FF05800861463 /* ECGHeader.h */,
+				EC53DC5A1F5FF05800861463 /* ECGMacroFile.h */,
+				EC53DC5B1F5FF05800861463 /* HealthHeader.h */,
+				EC53DC5C1F5FF05800861463 /* HealthUser.h */,
+				EC53DC5D1F5FF05800861463 /* HS2.h */,
+				EC53DC5E1F5FF05800861463 /* HS2Controller.h */,
+				EC53DC5F1F5FF05800861463 /* HS3.h */,
+				EC53DC601F5FF05800861463 /* HS3Controller.h */,
+				EC53DC611F5FF05800861463 /* HS4.h */,
+				EC53DC621F5FF05800861463 /* HS4Controller.h */,
+				EC53DC631F5FF05800861463 /* HS5.h */,
+				EC53DC641F5FF05800861463 /* HS5Controller.h */,
+				EC53DC651F5FF05800861463 /* HSHeader.h */,
+				EC53DC661F5FF05800861463 /* HSMacroFile.h */,
+				EC53DC671F5FF05800861463 /* iHealthHS6.h */,
+				EC53DC681F5FF05800861463 /* IHSDKCloudUser.h */,
+				EC53DC691F5FF05800861463 /* KN550BT.h */,
+				EC53DC6A1F5FF05800861463 /* KN550BTController.h */,
+				EC53DC6B1F5FF05800861463 /* ManageDeviceController.h */,
+				EC53DC6C1F5FF05800861463 /* PO3.h */,
+				EC53DC6D1F5FF05800861463 /* PO3Controller.h */,
+				EC53DC6E1F5FF05800861463 /* POHeader.h */,
+				EC53DC6F1F5FF05800861463 /* POMacroFile.h */,
+				EC53DC701F5FF05800861463 /* ScanDeviceController.h */,
+				EC53DC711F5FF05800861463 /* SDKUpdateDevice.h */,
+				EC53DC721F5FF05800861463 /* THV3.h */,
+				EC53DC731F5FF05800861463 /* THV3Controller.h */,
+				EC53DC741F5FF05800861463 /* THV3Macro.h */,
+				EC53DC751F5FF05800861463 /* TS28B.h */,
+				EC53DC761F5FF05800861463 /* TS28BController.h */,
+				EC53DC771F5FF05800861463 /* TS28BHeader.h */,
+			);
+			path = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,8 +323,8 @@
 				TargetAttributes = {
 					EC534B711F319DC200C97CCE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3Q553VZ29W;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 8982T47U8J;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -301,14 +491,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 3Q553VZ29W;
+				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.iGluco;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLPlistModel",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9b9e36d0-c229-4002-90e4-7130c3e6ccab";
-				PROVISIONING_PROFILE_SPECIFIER = com.test.iGluco;
 			};
 			name = Debug;
 		};
@@ -316,14 +507,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 3Q553VZ29W;
+				DEVELOPMENT_TEAM = 8982T47U8J;
 				INFOPLIST_FILE = Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.iGluco;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BLPlistModel",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihealthlabs.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9b9e36d0-c229-4002-90e4-7130c3e6ccab";
-				PROVISIONING_PROFILE_SPECIFIER = com.test.iGluco;
 			};
 			name = Release;
 		};
