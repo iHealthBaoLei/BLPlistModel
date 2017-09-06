@@ -117,9 +117,9 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
+#   s.framework  = "SomeFramework"
+  s.frameworks = "Security", "Accelerate","SystemConfiguration","MediaPlayer","ExternalAccessory","CoreBluetooth","Foundation","UIKit"
+  s.vendored_libraties = "BLPlistModel/**/*.{a}"
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
